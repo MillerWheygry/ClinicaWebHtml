@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contato</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href="sobre.html">Sobre a Clínica</a></li>
+        <li><a href="horario.html">Horário de Atendimento</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="header">
+        <img src="contatos.jpg" alt="Imagem da Clínica">
+      </div>
+      <div class="content">
+        <h1 style="text-align: center;">Faça-nos uma visita!</h1><br>
+        <p><strong>Com mais de 30 anos de tradição, a Clínica Vida Saudável está presente no coração do bairro Chico Pitoco.</strong></p>
+        <p>Nosso consultório está localizado na Rua Sete de Setembro, número 123, oferecendo serviços de qualidade e atendimento personalizado para toda a família.</p>
+        <p>Entre em contato conosco para agendar uma consulta ou tirar suas dúvidas.</p>
+        <p><strong>(11) 1234-5678 | contato@vidasaudavel.com.br</strong></p><br><br>
+        <p>Encontre-nos no mapa abaixo</p><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d82188.43655904703!2d-38.47052729758403!3d-3.7699695492342626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1732545770782!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+        <p>Para demais duvidas nao deixe de nos contactar, preencha o formulario abaixo e assim que possivel lhe retornaremos.</p><br><br>
+        <form id="contato" action="" method="post">
+          <fieldset>
+            <legend>Informe seus dados</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="assunto">Assunto:</label>
+            <select id="assunto" name="assunto">
+              <option value="consulta">Agendamento de consulta</option>
+              <option value="duvidas">Dúvidas gerais</option>
+              <option value="outros">Outros</option>
+            </select><br><br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="footer">
+        <p>© 2024 Clínica Vida Saudável</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
